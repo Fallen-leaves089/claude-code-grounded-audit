@@ -1,6 +1,25 @@
 # claude-code-grounded-audit
 
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![Audit: read-only](https://img.shields.io/badge/audit-read--only-informational.svg)](SKILL.md)
+[![Adapter: Claude Code + Claude](https://img.shields.io/badge/adapter-Claude%20Code%20%2B%20Claude-blueviolet.svg)](hosts/claude-code.md)
+[![Validation: documented](https://img.shields.io/badge/validation-documented-lightgrey.svg)](tests/model-evals/README.md)
+[![Model behavior: unverified](https://img.shields.io/badge/model%20behavior-unverified-orange.svg)](tests/model-evals/README.md)
+
 Claude + Claude Code 的证据优先项目健康审计技能。此项目是 `grounded-audit` 系列的独立拆分，只包含当前宿主和模型补偿，不依赖其他适配项目。
+
+## 适配标签
+
+| 标签 | 值 |
+|---|---|
+| 分发仓库 | `claude-code-grounded-audit` |
+| 宿主 | Claude Code |
+| 模型 | Claude |
+| 技能名 | `auditing-project-health` |
+| 调用入口 | `/auditing-project-health` |
+| 适配证据 | `documented` |
+| 模型行为 | 未验证 |
+| 许可 | Apache-2.0 |
 
 ## 名字与调用
 

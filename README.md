@@ -15,6 +15,7 @@ Claude + Claude Code 的证据优先项目健康审计技能。此项目是 `gro
 | 分发仓库 | `claude-code-grounded-audit` |
 | 宿主 | Claude Code |
 | 模型 | Claude |
+| 适配范围 | 宿主 + 模型专项 |
 | 技能名 | `auditing-project-health` |
 | 调用入口 | `/auditing-project-health` |
 | 适配证据 | `documented` |

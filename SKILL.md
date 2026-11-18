@@ -4,7 +4,7 @@ description: 证据落地的项目健康审计，针对 Claude Code 与 Claude�
 license: Apache-2.0
 compatibility: 适用于 Claude Code 的 Agent Skills / SKILL.md 技能入口；Python 3.10+ 可选，用于安装、校验和安全记录器。
 metadata:
-  version: 0.1.0
+  version: 0.1.1
   stage: single-host-claude-code
   memory-format: six-field-markdown
   short-description: "证据优先的项目健康审计"
